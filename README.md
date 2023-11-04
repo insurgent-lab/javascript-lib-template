@@ -69,7 +69,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
 
 ## Installation
 
-```console
+```shell
 npm install {{PACKAGE_NAME}}
 ```
 
