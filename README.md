@@ -40,7 +40,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
 - add some `keywords` in `package.json`.
 - create and add the workflows secrets:
   - [create a GitHub fine-grained token for the release pipeline](https://stackoverflow.com/a/76550826/5567941) and add it to your repository secrets as `CI_GITHUB_TOKEN`.
-  - [create a npm granular token for the package](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-granular-access-tokens-on-the-website) and add it to your repository secrets as `NPM_TOKEN`.
+  - [create an npm granular token for the package](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-granular-access-tokens-on-the-website) and add it to your repository secrets as `NPM_TOKEN`.
   - [create a GitHub token for OSSF ScoreCard](https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md) and add it to your repository secrets as `SCORECARD_GITHUB_TOKEN`.
   - [create a SonarCloud token](https://sonarcloud.io/account/security) and add it to your repository secrets as `SONAR_TOKEN`.
 - [add the Renovate app to your repository](https://github.com/apps/renovate/installations/select_target).
