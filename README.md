@@ -1,9 +1,5 @@
 # javascript-lib-template
 
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/insurgent-lab/javascript-lib-template?label=openssf%20scorecard)
-](https://securityscorecards.dev/viewer/?uri=github.com/insurgent-lab/javascript-lib-template)
-[![Discord](https://img.shields.io/discord/1113785800329531473?logo=discord)](https://discord.gg/zsNC4Hqd6h)
-
 A GitHub repository template for Open Source JavaScript libraries (ESM) following best practices.
 
 - Linting & formatting with [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
