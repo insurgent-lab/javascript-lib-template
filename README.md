@@ -47,7 +47,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
   - [create a GitHub token for OSSF ScoreCard](https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md) and add it to your repository secrets as `SCORECARD_GITHUB_TOKEN`.
   - [create a SonarCloud token](https://sonarcloud.io/account/security) and add it to your repository secrets as `SONAR_TOKEN`.
 - [add the Renovate app to your repository](https://github.com/apps/renovate/installations/select_target).
-- [add the Step Security app to your repository](https://github.com/apps/stepsecurity-actions-security)
+- [add the Step Security app to your repository](https://github.com/apps/stepsecurity-actions-security/installations/select_target)
 - make sure you [enabled your Discord server's widget](https://shields.io/badges/discord)
 - if your library is a development dependency, add `--save-dev` or `-D` to the **Installation** section.
 - run `npm run lint:fix`.
