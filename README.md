@@ -15,7 +15,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
 - Security score with [OSSF Scorecard](https://github.com/ossf/scorecard)
 - issues/PR templates, code of conduct, contributing docs & security policy
 
-## Spinning up your repo (< 15 mins)
+## Spinning up your repo (~ 15 mins)
 
 - [create your repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 - find and replace those variables with the correct values:
@@ -49,6 +49,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
   - [create a SonarCloud token](https://sonarcloud.io/account/security) and add it to your repository secrets as `SONAR_TOKEN`.
 - [add the Renovate app to your repository](https://github.com/apps/renovate/installations/select_target).
 - [add the Step Security app to your repository](https://github.com/apps/stepsecurity-actions-security/installations/select_target)
+- download and import [these two rulesets](https://github.com/insurgent-lab/.github/tree/a7f30280e0a06511f34b78b1692c26bf2020ce35/rulesets) to your repository.
 - make sure you [enabled your Discord server's widget](https://shields.io/badges/discord)
 - if your library is a development dependency, add `--save-dev` or `-D` to the **Installation** section.
 - run `npm run lint:fix`.
