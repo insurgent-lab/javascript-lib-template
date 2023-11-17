@@ -9,7 +9,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
 - Automated version management, changelog generation and package publishing with [`semantic-release`](https://semantic-release.gitbook.io/semantic-release/)
 - Code Quality, Security and Coverage with [SonarCloud](https://sonarcloud.io).
 - Security score with [OSSF Scorecard](https://github.com/ossf/scorecard)
-- issues/PR templates, code of conduct, contributing docs & security policy
+- Issues/PR templates, code of conduct, contributing docs & security policy
 
 ## Spinning up your repo (~ 15 mins)
 
@@ -45,7 +45,7 @@ A GitHub repository template for Open Source JavaScript libraries (ESM) followin
   - [create a SonarCloud token](https://sonarcloud.io/account/security) and add it to your repository secrets as `SONAR_TOKEN`.
 - [add the Renovate app to your repository](https://github.com/apps/renovate/installations/select_target).
 - [add the Step Security app to your repository](https://github.com/apps/stepsecurity-actions-security/installations/select_target)
-- download and import [these two rulesets](https://github.com/insurgent-lab/.github/tree/c069d95cb356dc42ea26f2b343b09a81551ff257/rulesets) to your repository.
+- download and import [these two rulesets](https://github.com/insurgent-lab/.github/tree/61a428dce3ab33fd95b51a43914bd8ee67268d46/rulesets) to your repository.
 - make sure you [enabled your Discord server's widget](https://shields.io/badges/discord)
 - if your library is a development dependency, add `--save-dev` or `-D` to the **Installation** section.
 - run `npm run lint:fix`.
