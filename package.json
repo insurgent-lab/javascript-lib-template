@@ -25,7 +25,7 @@
     "commitlint": "commitlint --edit"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.2",
+    "@commitlint/cli": "18.4.3",
     "@insurgent/commitlint-config": "19.0.0",
     "@insurgent/conventional-changelog-preset": "9.0.1",
     "@semantic-release/changelog": "6.0.3",
